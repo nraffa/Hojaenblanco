@@ -30,8 +30,10 @@ print y[:,2];
 print 'Type of an array:' + str(y.dtype)
 
 print 'Reshaping arrays....'
-f = np.array(range(100))
-fr = f.reshape(10,10)
+f = np.array(range(101))
+fr = f.reshape(11,11)
+print(fr)
+quit()
 fr[1:-1,1:-1]
 print fr[1:-1,1:-1]
 
