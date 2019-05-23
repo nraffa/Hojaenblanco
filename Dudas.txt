@@ -1,0 +1,4 @@
+Porque carajo cuando ejecuto sin hacer
+"conda activate ml" lo hace como python 
+3.6.5 si o si. No me deja pasarlo a python 2.7
+ni a palos 

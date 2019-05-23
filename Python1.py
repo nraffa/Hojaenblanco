@@ -1,39 +1,39 @@
 #!/usr/local/bin/python
 # coding: latin-1
 import numpy as np
-x = np.array([42,47,11], int)
-print x
-y = np.array( ((11,12,13), (21,22,23), (31,32,33)) )
-print y
+x = np.array([42,47.5,11],int)
+#print x
+y = np.array( [11,12,13] )
+#print y
+z = np.array([x,y])
+#print z
 
 
 # Array are zero based, array 0 is vertical, 1 is horizontal.
 # (h,v)
-print 'Element at 0, 1:'
-print  y[0][1]
+#print 'Element at 0, 1:'
+#print  y[0][1]
 
 # Check Array size
-print y.ndim
+#print y.ndim
 
 # Shape, size, of the array.
-print y.shape
+#print y.shape
 
 # Show up to row 2 included
-print y[:2];
+#print y[:2];
 
 # Show element 1,1, equal to y[1][1]
-print y[1,1];
+#print y[1,1];
 
-print 'Shows vertical element 2'
-print y[:,2];
+#print 'Shows vertical element 2'
+#print y[:,2];
 
-print 'Type of an array:' + str(y.dtype)
+#print 'Type of an array:' + str(y.dtype)
 
 print 'Reshaping arrays....'
-f = np.array(range(101))
-fr = f.reshape(11,11)
-print(fr)
-quit()
+f = np.array(range(100))
+fr = f.reshape(10,10)
 fr[1:-1,1:-1]
 print fr[1:-1,1:-1]
 
