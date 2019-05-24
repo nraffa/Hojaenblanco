@@ -32,10 +32,13 @@ z = np.array([x,y])
 #print 'Type of an array:' + str(y.dtype)
 
 print 'Reshaping arrays....'
-f = np.array(range(100))
-fr = f.reshape(10,10)
-fr[1:-1,1:-1]
-print fr[1:-1,1:-1]
+f = np.array(range(36))
+print f
+fr = f.reshape(9,4)
+print fr
+#2x2
+print fr[:-7,:-2]
+
 
 
 print 'Array concatenation:'
@@ -45,11 +48,26 @@ z = np.array([1,3,5])
 print x
 print y
 print z
-print np.concatenate((x,y,z))
+w = np.concatenate((x,y,z))
+print w
+wr = w.reshape(4,2)
+print 'two x two'
+print wr[:-2,:]
+print 'one x two'
+print wr[:-3,:]
+
 
 print 'Concatenate according to axis'
 z = np.concatenate((x,y),axis = 0)
+print 'own try: concanate segun axis'
+w = np.concatenate(f,x)
+print w
+quit()
+
+
 print z
+
+quit(0)
 
 print 'Adding new dimensions'
 x = np.array([2,5,18,14,4])

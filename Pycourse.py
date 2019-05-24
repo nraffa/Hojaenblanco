@@ -18,7 +18,7 @@ print(quicksort([3,6,8,10,1,2,1]))
 
 
 a=3
-print 'AT'+'{:3d}'.format(a))
+print 'AT'+'{:3d}'.format(a)
 
 x = 3
 print(type(x)) # Prints "<class 'int'>"
