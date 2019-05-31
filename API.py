@@ -1,20 +1,3 @@
-#duda para que el request?? (urllib.request)
-#duda para que el .read()
-
-#import urllib.request, json #para que seria el ,json?
-import urllib2
-import json
-url = 'https://data.seattle.gov/resource/tmmm-ytt6.json'
-json_obj0 = urllib2.urlopen(url)
-data0 = json.loads(json_obj0.read())
-print data0['checkoutyear']
-#for item in data0['usageclass']:
- #   print item['checkoutyear']
-#print(json.dumps(rawcheckout, indent=4, sort_keys=True))
-#print(rawcheckout[1])
-
-
-quit()
 #duda: hay urllib 1, 2 y 3, diferencia?
 #1 importo library para abrir urls
 import urllib2 
@@ -34,3 +17,18 @@ data = json.load(json_obj)
 print data
 
 print data ['data']
+print type(data)
+
+Performs the following translations in decoding by default:
+
+#JSON / Python
+#object/ dict
+#array / list
+#string / unicode
+#number(int) / int, long
+#number (real)/float
+#true/True
+#false/False
+#null/None
+
+
