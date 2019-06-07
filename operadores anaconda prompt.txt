@@ -1,0 +1,16 @@
+cd..
+cd Hojaenblanco/
+ls
+git commit -m " subo mi primer programa" 
+on brach master
+git config - global 
+git push - u origin master 
+
+
+
+source activate ml 
+(ml)ls
+
+cd python - toolbox 
+ls 
+ 
