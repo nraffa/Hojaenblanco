@@ -1,28 +1,20 @@
-import matplotlib.pyplot as plt
-plt.plot([1,2,3,4])
-plt.ylabel('some numbers')
-plt.show()
+import pandas as pd
+from matplotlib import pyplot as plt
 
-import numpy as np
-import matplotlib.pyplot as plt
+x = [1,2,3]
+y = [2,5,8]
 
-ax = plt.subplot(111)
 
-t = np.arange(0.0, 5.0, 0.01)
-s = np.cos(2*np.pi*t)
-line, = plt.plot(t, s, lw=2)
+plt.plot(x,y)
+#plt.show()
 
-plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
-            arrowprops=dict(facecolor='black', shrink=0.05),
-            )
+import time as t
 
-plt.ylim(-2,2)
-plt.show()
+seconds = int(input('How many seconds to wait?'))
 
-def graph(func, x_range):
-   x = np.arange(*x_range)
-   y = func(x)
-   plt.plot(x, y)
-
-graph(lambda x: (np.power(2.7, x)), (0,10))
-plt.show()
+for i in range(seconds):
+   countdown = (str(seconds - i) + ' seconds remain')
+   print (countdown)
+   t.sleep(1)
+   if countdown = '' :
+      exit()
