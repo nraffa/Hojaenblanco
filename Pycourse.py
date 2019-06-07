@@ -2,7 +2,12 @@
 # Python quicksort
 
 # Esta guía está basada en este excelente tutorial: http://cs231n.github.io/python-numpy-tutorial/
-
+arr = [1,2,3,4]
+p = len(arr)
+print arr
+print p
+quit()
+#tratando de entender pivot = arr [len(arr)//2] porque doble barra??, pivot es un array??
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
@@ -15,6 +20,7 @@ def quicksort(arr):
 print ('Quicksort in action...')
 print ([3,6,8,10,1,2,1])
 print(quicksort([3,6,8,10,1,2,1]))
+quit()
 
 
 a=3

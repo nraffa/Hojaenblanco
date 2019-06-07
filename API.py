@@ -14,12 +14,12 @@ import json
 url = 'https://apis.datos.gob.ar/series/api/series/?ids=defensa_FAA_0006&limit=5000'
 json_obj = urllib2.urlopen(url)
 data = json.load(json_obj)
-print data
-
+print json.dumps(data,indent=2,sort_keys=True)
+quit()
 print data ['data']
 print type(data)
 
-Performs the following translations in decoding by default:
+#Performs the following translations in decoding by default:
 
 #JSON / Python
 #object/ dict

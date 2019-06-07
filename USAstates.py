@@ -1,5 +1,5 @@
 # Python 3
-# tutorial en youtube, minuto 6:50
+# tutorial en youtube, https://www.youtube.com/watch?v=9N6a-VLBa2I
 import json
 
 states_string = '''
@@ -271,8 +271,8 @@ print (type(data['states']))
 
 #imprime por separado lo que busque
 #en este caso, le pedi la abreviacion
-#for state in data['states'] :
-  #  print (state['abbreviation'])
+for state in data['states'] :
+    print (state['abbreviation'])
 
 #elimino el codigo de area y el nombre de los datos
 for state in data['states']:
@@ -282,5 +282,6 @@ for state in data['states']:
 new_string = json.dumps(data, indent=2) #para que es el dumps?
 
 print(new_string)
+
 
 
