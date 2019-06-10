@@ -10,6 +10,10 @@ lectura1 = lectura.head(3)
 #print lectura['PROVINCIA']
 prov = lectura['ABREVIACION']
 tran = lectura['TRANSITORIAS']
+temp = lectura['TEMPORARIAS']
+perm = lectura['PERMANENTES']
+tot = lectura['TOTAL']
+
 print prov[2] #Cordoba
 #Filtering
 # print lectura[lectura.source == 'SAN JUAN'] no sale y no se porque
@@ -22,6 +26,9 @@ import matplotlib.pyplot as plt
 x = prov
 y = tran
 plt.bar(x, y, label = 'Transitorias')
+plt.bar(x, temp, label = 'Temporarias')
+plt.bar(x, perm, label = 'Permanentes')
+#plt.bar(x, tot, label = 'Total')
 
 plt.xlabel ('Provincias')
 plt.ylabel('Residencias Transitorias')
