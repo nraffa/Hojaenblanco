@@ -1,0 +1,6 @@
+Bases de datos interesantes
+Reclamos mensuales por tipo de servicio
+json
+https://datos.gob.ar/dataset/enacom-reclamos-mensuales-por-tipo-servicio/archivo/enacom_RECLA-MENSU-POR-TIPO-DE_2
+csv
+https://datos.gob.ar/dataset/enacom-reclamos-mensuales-por-tipo-servicio/archivo/enacom_RECLA-MENSU-POR-TIPO-DE_0
