@@ -1,16 +1,55 @@
 {
 	"folders": [
 		{
-			"path": "C:\\Users\\Nico\\python-toolbox"
-		},
-		{
 			"path": "."
 		},
 		{
-			"path": "C:\\Users\\Nico\\ALPI-bot"
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\.vscode"
 		},
 		{
-			"path": "C:\\Users\\Nico\\CheeatahBot"
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\ALPI-bot"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\apps"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\Automatizacion"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\CheeatahBot"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\HoloBot"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\ImageToText"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\ML"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\NN"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\python-toolbox"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\Simulacion"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\teoria"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Anaconda2\\envs\\vision"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\kaggle"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\GAN"
+		},
+		{
+			"path": "C:\\Users\\Nico\\Documents\\PYTHON\\Cle"
 		}
 	]
 }
